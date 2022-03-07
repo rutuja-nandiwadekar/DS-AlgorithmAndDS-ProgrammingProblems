@@ -23,7 +23,6 @@ public class PrimeNumbers {
 	 * @return: returns flag = 1 means i is prime and flag = 0 means i is not prime
 	 */
 	private static void isPrime(int start, int end) {
-
 		System.out.println("Prime number between 0 to 1000 are");
 
 		for (i = start; i <= end; i++) {
@@ -31,7 +30,6 @@ public class PrimeNumbers {
 				continue;
 
 			flag = 1;
-
 			for (j = 2; j <= i / 2; ++j) {
 				if (i % j == 0) {
 					flag = 0;
