@@ -3,7 +3,10 @@
 */
 package com.bridgelabz;
 
+import java.util.ArrayList;
+
 public class PrimeNumbers {
+	static ArrayList<Integer> primeNum = new ArrayList<>();
 	// Declaration of variables
 	static int i, j, flag;
 	static int start = 0, end = 1000;
@@ -37,7 +40,8 @@ public class PrimeNumbers {
 				}
 			}
 			if (flag == 1)
-				System.out.println(i);
+				primeNum.add(i);
 		}
+		System.out.println(primeNum);
 	}
 }
