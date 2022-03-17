@@ -6,7 +6,7 @@ package com.bridgelabz;
 
 public class InsertionSort {
 	public static void main(String[] args) {
-		String[] a = { "rutu", "hiii", "welcome", "kop", "apple" };
+		String[] a = { "rutu", "hiiii", "welcome", "kop", "apple" };
 		int n = a.length;
 		String sortedArray[] = sort(a, n);
 		for (int i = 0; i < sortedArray.length; i++)
